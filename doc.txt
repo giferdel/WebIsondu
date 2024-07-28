@@ -1,0 +1,20 @@
+---> Estrategias SEO
+
+Palabras Clave:
+
+---> Paleta Colores
+
+Verdes:
+rgb(1,209,95)
+rgb(102,179,153)
+
+Azul:
+rgb(8,8,19)
+
+Naranja:
+rgb(239,126,17)
+
+---> Tipografía
+
+Párrafos: "Quicksand"
+Títulos: Arial, Helvetica, sans-serif
