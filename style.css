@@ -181,35 +181,35 @@ main{
 }
 @keyframes degradadoFondo{
     0% {
-        background: radial-gradient(circle at top center, orange 5%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 5%, rgb(1, 209, 95) 90%);
       }
       10% {
-        background: radial-gradient(circle at top center, orange 7%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 7%, rgb(1, 209, 95) 90%);
       }
       20% {
-        background: radial-gradient(circle at top center, orange 10%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 10%, rgb(1, 209, 95) 90%);
       }
       30% {
-        background: radial-gradient(circle at top center, orange 25%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 25%, rgb(1, 209, 95) 90%);
       }
       40% {
-        background: radial-gradient(circle at top center, orange  50%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange  50%, rgb(1, 209, 95) 90%);
       }
       50% {
-        background: radial-gradient(circle at top center, orange 25%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 25%, rgb(1, 209, 95) 90%);
       }
       60% {
-        background: radial-gradient(circle at top center, orange  10%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange  10%, rgb(1, 209, 95) 90%);
       }
       80% {
-        background: radial-gradient(circle at top center, orange 7%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 7%, rgb(1, 209, 95) 90%);
       }
       100% {
-        background: radial-gradient(circle at top center, orange 5%, rgb(8,8,19) 90%);
+        background: radial-gradient(circle at top center, orange 5%, rgb(1, 209, 95) 90%);
       }
 }
 .somos h1{
-    color: rgb(255, 255, 255);
+    color: transparent;
     font-size: 2px;
 }
 .somos .somos-marca{
@@ -224,7 +224,6 @@ main{
     font-family: "Quicksand", sans-serif;
 }
 .somos1{
-    scroll-snap-align: start;
     height: 100vh;
     padding: 20px;
     display: flex;
@@ -232,7 +231,7 @@ main{
     align-items: center;
     text-align: center;
     /* background-color: rgb(102,179,153); */
-    background: linear-gradient(to top, rgb(8,8,19)20%, rgb(102,179,153) 40%);
+    background: linear-gradient(to top, rgb(8,8,19)10%,rgb(102,179,153) 40%, rgb(8,8,9) 90%);
     color: rgb(255, 255, 255);
 }
 .somos1 h2{
@@ -369,7 +368,6 @@ iframe:hover{
     justify-content: center;
     align-items:flex-end;
     background: linear-gradient(to top, rgb(80,138,119) 2%, rgb(239,126,17) 25%);
-
 }
 
 .novedades h2{
@@ -387,7 +385,6 @@ iframe:hover{
     color: rgb(255, 255, 255, 0.2);
     line-height: 100px;
     text-shadow: 5px -5px 0px rgb(102,179,153);
-    
 }
 .novedades article{
     display: flex;
@@ -678,7 +675,6 @@ footer a:hover{
         padding: 0px;
         padding-top: 50px;
         padding-bottom: 50px;
-        background-color: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1157,8 +1153,7 @@ footer a:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: linear-gradient(to top, rgb(8,8,19)10%, rgb(102,179,153) 90%);
-
+        background: linear-gradient(to top, rgb(8,8,19)10%,rgb(102,179,153) 40%, rgb(8,8,9) 90%);
     }
     .somos1 h2{
         margin: 0px;
