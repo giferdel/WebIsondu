@@ -62,7 +62,6 @@ nav{
     flex-wrap: wrap;
     /* width: 100vw; */
     height: 10vh;
-    /* background-color: rgb(1, 209, 95); */
     background-color: rgb(8, 8, 19);
 }
 a{
@@ -86,6 +85,8 @@ a:active{
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+    margin: 5px;
+    padding: 0px;
 }
 
 .menu-der{
@@ -94,6 +95,8 @@ a:active{
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
+    margin: 5px;
+    padding: 0px;
 }
 
 .abrir-modal{
@@ -1037,12 +1040,11 @@ footer a:hover{
         display: flex;
         flex-direction: column;
         align-items:center;
-        justify-content: space-between;
+        justify-content:space-between;
         flex-wrap: wrap;
         height: 7vh;
         padding-top: 5px;
         padding-bottom: 5px;
-        /* background-color: rgb(1, 209, 122); */
         background-color: rgb(8, 8, 19);
 
     }
@@ -1051,19 +1053,24 @@ footer a:hover{
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-end;
-        padding-left: 1vh;
+        a{
+            margin: 0px 0px 5px -20px;
+        }
     }
     .menu-der{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-end;
-        padding-right: 1vh;
+        a{
+            margin: 0px -20px 5px 0px;
+        }
     }
     a{
         color: antiquewhite;
         text-decoration: none;
         font-size: 15px;
+        
         font-family:"Quicksand", sans-serif;
     } 
     a:hover{
